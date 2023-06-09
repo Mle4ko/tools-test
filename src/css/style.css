@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Consolas';
+    overflow: hidden;
+}
+
+.game {
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+}
+.start-screen {
+    font-size: 48px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    color: lightblue;
+    position: absolute;
+    left: 50%;
+    top: 30%;   
+    transform: translate(-50%);
+    text-align: center;
+    padding: 30px;
+    cursor:crosshair;
+    margin: auto;
+}
+.start-screen:hover {
+    font-size: 48px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    color: lightblue;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 30px;
+    cursor:crosshair;
+    margin: auto;
+}
+.fireball {
+    position: absolute;
+    background-image: url("/images/fire-ball.png");
+    background-size: cover;
+}
+.hidden {
+    display: none;
+}
+.score {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 20px;
+}
+.wizard {
+    position: absolute;
+    background-image: url('/images/wizard.png');
+    background-size: cover;
+}
+.bug {
+    position: absolute;
+    background-image: url("/images/bug.png");
+    background-size: cover;
+}
+.game-screen {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    
+}
